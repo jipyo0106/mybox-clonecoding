@@ -1,0 +1,18 @@
+.gradle
+bin/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+src/main/resources/**.properties
+!src/main/resources/application.properties
+
+
+#GITHUB
+.devcontainer
+
+# VSCODE
+.vscode
+/vscode
+
